@@ -38,7 +38,7 @@ class DebugSessionClient:
 
     # 簡化 api 呼叫流程
     
-    def excute(self, command: str) -> CommandResult:
+    def execute(self, command: str) -> CommandResult:
         parts = command.strip().split()
         if not parts:
             return self.main_result("")
