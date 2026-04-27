@@ -1,0 +1,150 @@
+Screen {
+    layout: vertical;
+    background: #1e1e2e;
+    color: #cdd6f4;
+}
+
+#root-layout {
+    height: 1fr;
+    padding: 0 1;
+    background: #1e1e2e;
+}
+
+#main-screen {
+    height: 1fr;
+}
+
+#inspect-screen {
+    height: 1fr;
+}
+
+#top-pane {
+    height: 1fr;
+    background: #1e1e2e;
+}
+
+#left-pane {
+    width: 1fr;
+    background: #1e1e2e;
+}
+
+#disasm-view {
+    height: 1fr;
+    min-height: 10;
+    background: #181825;
+    color: #cdd6f4;
+    border: round #89b4fa;
+    overflow-y: auto;
+    scrollbar-color: #6c7086;
+    scrollbar-color-hover: #7f849c;
+    scrollbar-color-active: #89b4fa;
+    scrollbar-background: #11111b;
+}
+
+#memory-view {
+    height: auto;
+    min-height: 2;
+    max-height: 10;
+    background: #181825;
+    color: #cdd6f4;
+    border: round #f9e2af;
+    scrollbar-color: #6c7086;
+    scrollbar-color-hover: #7f849c;
+    scrollbar-color-active: #f9e2af;
+    scrollbar-background: #11111b;
+}
+
+#register-view {
+    width: 46;
+    min-width: 36;
+    background: #181825;
+    color: #cdd6f4;
+    border: round #f38ba8;
+    scrollbar-color: #6c7086;
+    scrollbar-color-hover: #7f849c;
+    scrollbar-color-active: #f38ba8;
+    scrollbar-background: #11111b;
+}
+
+#inspect-pane {
+    height: 1fr;
+    background: #1e1e2e;
+}
+
+#inspect-left-pane {
+    width: 40;
+    min-width: 30;
+    max-width: 50;
+    background: #1e1e2e;
+}
+
+#breakpoint-table-view {
+    height: 10;
+    min-height: 8;
+    background: #181825;
+    color: #cdd6f4;
+    border: round #f38ba8;
+    overflow-y: auto;
+    scrollbar-color: #6c7086;
+    scrollbar-color-hover: #7f849c;
+    scrollbar-color-active: #f38ba8;
+    scrollbar-background: #11111b;
+}
+
+#thread-callstack-view {
+    height: 1fr;
+    background: #181825;
+    color: #cdd6f4;
+    border: round #a6e3a1;
+    overflow-y: auto;
+    scrollbar-color: #6c7086;
+    scrollbar-color-hover: #7f849c;
+    scrollbar-color-active: #a6e3a1;
+    scrollbar-background: #11111b;
+}
+
+#memory-regions-view {
+    width: 1fr;
+    background: #181825;
+    color: #cdd6f4;
+    border: round #fab387;
+    overflow-y: auto;
+    scrollbar-color: #6c7086;
+    scrollbar-color-hover: #7f849c;
+    scrollbar-color-active: #fab387;
+    scrollbar-background: #11111b;
+}
+
+#command-input-main {
+    height: 3;
+    background: #181825;
+    color: #cdd6f4;
+    border: round #a6e3a1;
+}
+
+#command-input-main:focus {
+    border: round #cba6f7;
+}
+
+#log-view {
+    height: 12;
+    background: #181825;
+    color: #cdd6f4;
+    border: round #94e2d5;
+    overflow-y: auto;
+    scrollbar-color: #6c7086;
+    scrollbar-color-hover: #7f849c;
+    scrollbar-color-active: #94e2d5;
+    scrollbar-background: #11111b;
+}
+
+Header {
+    background: #181825;
+    color: #89b4fa;
+    text-style: bold;
+}
+
+Footer {
+    background: #181825;
+    color: #a6adc8;
+}

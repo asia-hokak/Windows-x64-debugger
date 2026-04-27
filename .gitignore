@@ -1,0 +1,23 @@
+# Build outputs
+/dist/
+/build/
+/bin/
+/src/backend/build/
+*.obj
+*.lib
+*.exp
+*.pdb
+*.ilk
+*.dll
+*.exe
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+.pytest_cache/
+.mypy_cache/
+
+# IDE
+.vscode/
+
